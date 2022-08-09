@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table tr td {
+        border: rgb(255, 0, 60) 1px solid;
+     
+
+    } 
+    
+   
+</style>
+<body>
+    <h1>Quản lý sản phẩm</h1>
+    <input id="newP" placeholder="NewProduct:">
+    <!-- <button onclick="showAllProduct()">Show</button> -->
+    <button style="background-color: chartreuse" onclick="creatNewProduct()">Creat</button>
+    <table>
+        <tr>
+           <td><b>Produce name</b></td>
+            <td id="sumOfProducts" colspan='2' style='text-align: right'><b>Tong sp: </b></td>
+    </table>
+    <table>
+        <tr>
+            <td >Tên sản phẩm</td>
+            <td style="background-color: chartreuse">Sửa</td>
+            <td style="background-color: chartreuse">Xóa</td>
+
+        </tr>
+        <tbody id="products">
+            <!-- <tr>
+                <td>Dell 3570</td>
+                <td>Sửa</td>
+                <td><buttononclick="deleteProduct()">Xóa</button></td>
+    
+            </tr>
+            <tr>
+                <td>Macbook 2020</td>
+                <td>Sửa</td>
+                <td>Xóa</td>
+    
+            </tr>
+            <tr>
+                <td>Acer Nitro 5</td>
+                <td>Sửa</td>
+                <td>Xóa</td>
+    
+            </tr> -->
+        </tbody>
+        
+    </table>
+</body>
+</html>
+<script src="js.js"></script>
